@@ -24,7 +24,7 @@ if(digitalRead(button) == HIGH && a==0 ){
         tone(buz,2200,1000); 
         
         
-          if(analogRead(foto) < 930 && digitalRead(button) == HIGH ){      //  костыли , чтобы отключить сигнализация, надо убрать пересвет и нажать на кнопку                                        
+          if( digitalRead(button) == HIGH ){      //  чтобы отключить сигнализация надо  нажать на кнопку                                        
              a=2;         
              digitalWrite(rele,LOW);         
              delay(5000);
