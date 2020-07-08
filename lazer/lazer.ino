@@ -6,7 +6,7 @@ int a = 0;
 int b=0;
 void setup(){
   pinMode(rele, OUTPUT);
-  digitalWrite(rele, OUTPUT);
+  digitalWrite(rele, 1);
   pinMode(buz, OUTPUT);
   pinMode(button, INPUT);
 }
