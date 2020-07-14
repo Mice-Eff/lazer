@@ -1,3 +1,7 @@
+/*
+CREATED BY MICE_EFF https://www.youtube.com/watch?v=HImPTU2JCjc
+*/
+// БАГ С МОСФЕТОМ РЕШЕН
 int buz = 9; // пин пассивного зумера
 #define foto 0 // аналоговый вход фоторезистора
 #define rele 8 // пин реле
@@ -40,7 +44,7 @@ if(digitalRead(button) == HIGH && a==0 ){
  
 }
 
-// CREATED by MICE EFF 
+
 
   
 
