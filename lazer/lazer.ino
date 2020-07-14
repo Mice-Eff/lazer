@@ -6,7 +6,7 @@ int a = 0;
 int b=0;
 void setup(){
   pinMode(rele, OUTPUT);
-  digitalWrite(rele, 1);
+  digitalWrite(rele, 0); // 1 для реле ,  0 для мосфета
   pinMode(buz, OUTPUT);
   pinMode(button, INPUT);
 }
@@ -40,7 +40,7 @@ if(digitalRead(button) == HIGH && a==0 ){
  
 }
 
-// powered by Mice_Eff 
+// CREATED by MICE EFF 
 
   
 
@@ -58,5 +58,3 @@ if(digitalRead(button) == HIGH && a==0 ){
                           
     
       
-
-
